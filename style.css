@@ -1,0 +1,48 @@
+body{
+    background-color: black;
+}
+#cajas{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tarjeta{
+    display: flex;
+    flex-direction: column;
+    border: 5px solid rgb(255, 255, 255); 
+    background-color: rgb(129, 12, 12);
+    color: beige;
+    align-items: center;
+    border-radius: 10px;
+    margin: 5px;
+
+}
+
+ 
+.inicio{
+    background-color: rgb(129, 12, 12);
+    color:azure;
+    padding: 30px 30px;
+    text-align:center;
+    
+font-family: 'PT Sans', sans-serif;
+}
+.pie{
+    background-color: rgb(129, 12, 12);
+    color: azure;
+    text-align: center;
+   margin: 5px;
+   padding: 15px 15px;
+   font-family: 'PT Sans', sans-serif;
+   font-size: 30px;
+} 
+
+h1{
+    color: bisque;
+    font-size: 40px;
+}
+p{
+    color: bisque;
+    font-size: 20px;
+
+}
